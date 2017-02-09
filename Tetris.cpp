@@ -135,7 +135,7 @@ void initcup()
 
 void NextStep()
 {
-	nextfig.color = rand() % 15+1;
+	nextfig.color = rand() % 7+9;
 	SetConsoleTextAttribute(hConsole, nextfig.color);
 	nextfig.nom = rand() % 7 + 1;
 	nextfig.poz = 0;
@@ -1956,5 +1956,4 @@ int main()
 	MENU();
 	return 0;
 }
-
 
